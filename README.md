@@ -1,6 +1,6 @@
 # Covid-19 India Portal
 
-The two files `app.js` and a database file `covid19IndiaPortal.db` consisting of three tables `state`, `district` and `user`.
+The a database file `covid19IndiaPortal.db` consists of three tables `state`, `district` and `user`.
 
 APIs to perform operations on the tables `state`, `district` only after authentication of the user.
 
@@ -289,8 +289,6 @@ Returns the statistics of total cases, cured, active, deaths of a specific state
 
 <br/>
 
-Use `npm install` to install the packages.
+**Used the default export syntax for exporting the express instance.**
 
-**Export the express instance using the default export syntax.**
-
-**Use Common JS module syntax.**
+**Used Common JS module syntax.**
